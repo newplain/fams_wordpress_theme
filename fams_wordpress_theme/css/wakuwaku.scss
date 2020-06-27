@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@import "style.scss";
+
+body {
+    background-image: url(../img/background/background3.svg);
+    background-size: cover;
+}
+
+.drop_shadow {
+    text-shadow: 5px 8px 0px rgba($color: #000000, $alpha: 0.1);
+}
+
+.top {
+    position: relative;
+
+    h1 {
+        font-size: 64px !important;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+    }
+
+    .background {
+        width: 100%;
+    }
+
+    .gif_angel {
+        position: absolute;
+        top: 2vw;
+        left: 72vw;
+        transform: rotate(10deg);
+        width: 20vw;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .gif_hakase {
+        position: absolute;
+        bottom: 5vw;
+        left: 4vw;
+        transform: rotate(-10deg);
+        width: 16vw;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.top_nav {
+
+    ul {
+        width: 60%;
+
+        li {
+            a {
+                color: white;
+                font-size: 16px;
+                transition: 0.5s;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}
+
+.footer_logo {
+    display: flex;
+    align-items: center;
+    margin-right: 120px;
+    flex-direction: column;
+
+    img {
+        width: 13vw;
+        transition: 0.5s;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    p {
+        color: white;
+        font-size: $font-size-12;
+        font-weight: 200;
+        margin-top: 24px;
+    }
+}
+
+.fotter_column {
+    width: 15%;
+
+    ul {
+        li {
+            color: white;
+            font-size: $font-size-16;
+            font-weight: 400;
+            padding: 8px;
+
+            a {
+                color: white;
+                font-size: $font-size-12;
+                transition: 0.5s;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: 100px !important;
+    height: 100px !important;
+    z-index: 100 !important;
+}
+
+.swiper-button-prev {
+    left: 0 !important;
+    background: url(../img/fams_wakuwaku/button_white_prev.svg) no-repeat center center / cover;
+}
+.swiper-button-prev::after {
+    content: " " !important;
+}
+
+.swiper-button-next {
+    right: 0 !important;
+    background: url(../img/fams_wakuwaku/button_white_next.svg) no-repeat center center / cover;
+}
+.swiper-button-next::after {
+    content: " "!important;
+}
+
+.swiper-pagination-bullet {
+    background-color: rgba($color: white, $alpha: 0.8) !important;
+    width: 15px !important;
+    height: 15px !important;
+    margin: 0 10px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: white !important;
+}

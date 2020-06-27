@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*fams_web*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "GenjyuugothicMedium";
+}
+
+.top_logo {
+    display: flex;
+    align-items: center;
+}
+
+.top_logo img {
+    width: 300px;
+    margin-left: 104px;
+    margin-top: 88px;
+}
+
+.top_nav {
+    margin: 96px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.top_nav ul {
+    display: flex;
+    width: 1200px;
+    justify-content: space-around;
+}
+
+.top_nav li {
+    list-style: none;
+}
+
+.top_nav a {
+    text-decoration: none;
+    color: #5BC2C3;
+    font-size: 16px;
+}

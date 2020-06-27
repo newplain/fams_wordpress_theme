@@ -1,0 +1,699 @@
+/*
+Theme Name : famsbaby
+Description : wordpress theme for fams
+Version : 0.0.1
+*/
+
+//リセット
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+//フォントの呼び出し
+
+$font-bold: "GenjyuugothicBold";
+$font-medium: "GenjyuugothicMedium";
+$font-regular:"GenjyuugothicRegular";
+$color-blue: #5BC2C3;
+$color-black: #4F5E60;
+$font-size-48:48px;
+$font-size-24:24px;
+$font-size-18:18px;
+$font-size-16:16px;
+$font-size-12:12px;
+
+body {
+    font-family: $font-regular, $font-bold, $font-medium;
+}
+
+//ヘッダー関連
+
+h1 {
+    font-size: $font-size-48;
+    font-weight: 500;
+    text-align: center;
+}
+
+.font_size_64 {
+    font-size: 64px !important;
+}
+
+h2 {
+    font-size: $font-size-24;
+    font-weight: 400;
+    text-align: center;
+    line-height: 250%;
+}
+
+
+//スイッチ
+.fams_switch {
+    display: flex;
+    width: 400px;
+    background-color: $color-blue;
+    border-radius: 56px;
+    margin: 16px 120px;
+    box-shadow: 0px 0px 16px rgba($color: #000000, $alpha: 0.1) inset;
+
+    a {
+        text-align: center;
+        width: 33%;
+        padding: 16px 20px;
+        color: white;
+
+        &.active {
+            color: $color-black;
+            background-color: white;
+            border-radius: 56px;
+            box-shadow: 0px 0px 16px rgba($color: #000000, $alpha: 0.1);
+        }
+    }
+}
+
+
+//色
+
+.color_blue {
+    color: $color-blue;
+}
+
+.color_black {
+    color: $color-black;
+}
+
+.color_white {
+    color: white;
+}
+
+//width
+
+.width_100 {
+    width: 100%;
+}
+
+.width_80 {
+    width: 80%;
+}
+
+.width_60 {
+    width: 60%;
+}
+
+.width_50 {
+    width: 50%;
+}
+
+.width_33 {
+    width:33%
+}
+
+.width_20 {
+    width: 20%;
+}
+
+
+//マージン
+
+.margin_0_auto {
+    margin: 0 auto;
+}
+
+.margin_120_auto {
+    margin: 120px auto;
+}
+
+.margin_160_0 {
+    margin: 160px 0;
+}
+
+.margin_160_16 {
+    margin: 160px 0 16px;
+}
+
+.margin_192_0 {
+    margin: 192px 0;
+}
+
+.margin_400_0 {
+    margin: 400px 0;
+}
+
+.margin_56_0 {
+    margin: 56px 0;
+}
+
+.margin_80_0 {
+    margin: 80px 0;
+}
+
+.margin_96_0 {
+    margin: 96px 0;
+}
+
+.margin_16_160 {
+    margin: 16px 0 160px;
+}
+
+.margin_32_0 {
+    margin: 32px 0;
+}
+
+//textalign
+.text_align {
+    text-align: center;
+}
+
+//英語ヘッダーの場合の指定
+
+.en {
+    font-family: "all-round-gothic" !important;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+}
+
+//container
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+//block化
+
+.display_block {
+    display: block;
+}
+
+
+//flex関連
+
+.flex_box {
+    display: flex;
+}
+
+.flex_wrap {
+    flex-wrap: wrap;
+}
+
+.flex_end {
+    align-items: flex-end;
+}
+
+.flex_reverse {
+    flex-flow: row-reverse;
+}
+
+.flex_direction_column {
+    flex-direction: column;
+}
+
+.justify_content_center {
+    justify-content: center;
+}
+
+.justify_content_spacearound {
+    justify-content: space-around;
+}
+
+.justify_content_spacebetween {
+    justify-content: space-between;
+}
+
+.align_items_flexstart {
+    align-items: flex-start;
+}
+
+.align_items_center {
+    align-items: center;
+}
+
+
+//トップロゴ
+.top_logo {
+
+    a {
+        img {
+            width: 300px;
+            margin-left: 104px;
+            margin-top: 88px;
+            transition: 0.5s;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+
+    }
+}
+
+//contentbox
+
+.content_box1 {
+
+    p {
+        width: 50%;
+        font-size: $font-size-18;
+    }
+
+    img {
+        width: 40%;
+        height: 40%;
+        border-radius: 40px;
+        object-fit: cover;
+        box-shadow: 4px 4px 200px rgba($color: #000000, $alpha: 0.05);
+    }
+
+    &:nth-child(2n) {
+        flex-flow: row-reverse;
+    }
+}
+
+.content {
+    width: 25%;
+
+    img {
+        width: 60%;
+    }
+
+    p {
+        text-align: center;
+        font-size: $font-size-16;
+        margin: 24px auto;
+    }
+}
+
+
+//ボタン
+
+.button_blue {
+    display: inline-block;
+    background-color: $color-blue;
+    border-radius: 80px;
+    margin: 48px;
+    padding: 24px 48px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    box-shadow: 0 24px 72px 0 rgba(91,194,195,0.2);
+    transition: box-shadow 0.5s;
+
+    &:hover {
+        box-shadow: 0 24px 72px 0 rgba(91,194,195,0.4);
+        transition: box-shadow 0.2s;
+    }
+}
+
+.button_blue_linear {
+    color: $color-blue;
+    padding: 16px 32px;
+    border: 2px solid;
+    border-color: $color-blue;
+    border-radius: 12px;
+}
+
+.button_white {
+    display: inline-block;
+    font-size: $font-size-24;
+    color: $color-blue;
+    padding: 16px 32px;
+    background-color: white;
+    border-radius: 56px;
+    box-shadow: 5px 8px 0px rgba($color: #000000, $alpha: 0.1);
+    transition: 0.5s;
+
+    &:hover {
+        box-shadow: 2px 3px 0px rgba($color: #000000, $alpha: 0);
+    }
+}
+
+
+table {
+    margin: 0 auto;
+    width: 90%;
+    color: $color-black;
+    border-collapse: collapse;
+
+    th,td {
+        border-top:solid 1px #C4C4C4;
+        border-bottom:solid 1px #C4C4C4;
+        padding: 16px 40px;
+    }
+
+    th {
+        background-color: #F6FDFD;
+        text-align: left;
+        width: 160px;
+    }
+
+    tr {
+        line-height: 3.5em;
+    }
+}
+
+footer {
+    margin: 80px 0;
+}
+
+.text1,.text2 {
+    margin: 32px 0;
+}
+
+.text1 {
+    font-size: 48px;
+    color: $color-blue;
+    line-height: 180%;
+}
+
+.text2 {
+    font-size: 24px;
+    color: $color-black;
+    line-height: 250%;
+}
+
+.text3 {
+    font-size: 12px;
+    color: $color-black;
+    line-height: 200%;
+}
+
+.content_box3 {
+    margin: 124px 0;
+    width: 100%;
+    display: flex;
+
+    .content_text3 {
+        width: 40%;
+        margin-top: 344px;
+
+        span {
+            color: $color-blue;
+            font-size: 20px;
+        }
+
+        img {
+            width: 320px;
+        }
+    }
+
+    .content_img3 {
+        width: 60%;
+
+        img {
+            margin: 0 auto;
+            right: 0;
+            border-radius: 270px;
+            box-shadow: 0 8px 24px 0 rgba(0,0,0,0.1);
+        }
+    }
+}
+
+/*
+.content_box3:nth-child(2n+1) {
+    flex-flow: row-reverse;
+}
+*/
+
+.content_box4 {
+    width: 100%;
+    text-align: center;
+
+    img {
+        display: block;
+        width: 584px;
+        margin: 0 auto;
+    }
+
+    .text1,.text2,.text3 {
+        width: 100%;
+        margin: 32px auto;
+        text-align: center;
+    }
+}
+
+.effect_fade {
+    opacity: 0;
+    transform: translate(0,45px);
+    transition: all 0.5s;
+}
+
+.effect_fade.effect_scroll {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.text_24_white {
+    font-size: $font-size-24;
+    color: white;
+}
+
+.mama_back {
+    background-image: url(../img/background/background.svg);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+.customervoice {
+    margin: 64px auto;
+    width: 824px;
+    height: 200px;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 0 24px 48px 0 rgba(0,0,0,0.1);
+    transition: all 0.5s;
+    overflow: hidden;
+
+    &:hover {
+        box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+    }
+
+    &[open] {
+        height: 500px;
+    }
+
+    &[open] p {
+        animation: fadeIn 1s ease;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    summary {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        outline: none;
+
+        span {
+            width: 65%;
+            font-family: $font-bold;
+            font-weight: 500;
+            font-size: 36px;
+            margin-left: 48px;
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            width: 144px;
+            border-radius: 72px;
+            margin: 24px 0 24px 64px;
+        }
+    }
+
+    summary::-webkit-details-marker {
+        display:none;
+    }
+    
+    p {
+        font-size: 18px;
+        line-height: 250%;
+        width: 80%;
+        padding: 24px 0 40px;
+        margin: 0 auto;
+    }
+}
+
+.qanda {
+    width: 45%;
+    margin: 48px 0;
+    background-color: white;
+    border-radius: 56px;
+    border: solid 2px $color-blue;
+    transition: all 0.5s;
+    overflow: hidden;
+
+    &[open] {
+        animation: fadeIn 1s ease;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    summary {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        list-style: none;
+        outline: none;
+
+        span {
+            font-size: 48px;
+            margin: 32px 48px;
+        }
+
+        h2 {
+            width: 60%;
+            margin: 32px 0;
+        }
+    }
+
+    summary::-webkit-details-marker {
+        display:none;
+    }
+
+    .qanda_box {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        
+        span {
+            font-size: 48px;
+            margin: 32px 48px;
+        }
+
+        h2 {
+            width: 60%;
+            margin: 32px 0;
+        }
+    }
+
+    p {
+        width: 80%;
+        margin: 0 auto 48px;
+    }
+}
+
+.top_nav {
+
+    ul {
+        width: 83%;
+
+        li {
+            a {
+                color: $color-blue;
+                font-size: 16px;
+                transition: 0.5s;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}
+
+.footer_logo {
+    display: flex;
+    align-items: center;
+    margin-right: 120px;
+    flex-direction: column;
+
+    img {
+        width: 13vw;
+        transition: 0.5s;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    p {
+        color: $color-black;
+        font-size: $font-size-12;
+        font-weight: 200;
+        margin-top: 24px;
+    }
+}
+
+.fotter_column {
+    width: 15%;
+
+    ul {
+        li {
+            color: $color-blue;
+            font-size: $font-size-16;
+            font-weight: 400;
+            padding: 8px;
+
+            a {
+                color: $color-black;
+                font-size: $font-size-12;
+                transition: 0.5s;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1100px) {
+    .fams_switch {
+        display: none;
+    }
+
+    .top_nav {
+        display: none;
+    }
+
+    .top_logo {
+        a {
+            img {
+                width: 50%;
+                margin-left: 32px;
+                margin-top: 24px;
+            }
+        }
+    }
+
+    .flex_box {
+        flex-wrap: wrap;
+    }
+
+    .content_box3 {
+        flex-wrap: wrap;
+    }
+
+    .content_img3 {
+        img {
+            width: 60%;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+<svg width="1440" height="1566" viewBox="0 0 1440 1566" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<g filter="url(#filter0_iif)">
+<path d="M1252.3 138.445C1247.37 131.002 1185.61 152.524 1137.43 198.003C1118.48 216.029 1102.42 236.829 1089.79 259.662C1084.37 269.451 1078.8 279.148 1072.95 288.686C1057.28 314.257 1038.03 354.587 1033.21 406.448C1029.96 441.629 1022.16 527.297 1082.14 578.788C1100.41 594.472 1120.87 603.297 1139.96 608.137C1180.24 618.348 1222.35 625.765 1262.5 636.489C1303.23 647.368 1359.83 652.217 1416.06 623.458C1499.41 580.851 1548.08 481.272 1528.8 400.091V400.091C1519.38 361.292 1505.89 322.299 1492.18 284.799C1487.1 270.898 1479.78 256.496 1469.28 242.681C1427.01 187.073 1359.35 175.209 1343.41 172.893C1289.87 165.096 1244.26 179.25 1239.07 165.062C1235.5 155.278 1255.27 142.95 1252.3 138.445Z" fill="white"/>
+</g>
+</g>
+<g clip-path="url(#clip1)">
+<g filter="url(#filter1_iif)">
+<path d="M121.296 921.445C116.371 914.002 54.6083 935.524 6.43411 981.003C-12.5211 999.029 -28.5812 1019.83 -41.2128 1042.66C-46.6284 1052.45 -52.202 1062.15 -58.0482 1071.69C-73.7215 1097.26 -92.9733 1137.59 -97.7861 1189.45C-101.036 1224.63 -108.84 1310.3 -48.8626 1361.79C-30.5909 1377.47 -10.1282 1386.3 8.96326 1391.14C49.2421 1401.35 91.3545 1408.77 131.5 1419.49C172.229 1430.37 228.831 1435.22 285.065 1406.46C368.414 1363.85 417.076 1264.27 397.796 1183.09V1183.09C388.375 1144.29 374.886 1105.3 361.178 1067.8C356.096 1053.9 348.778 1039.5 338.282 1025.68C296.009 970.073 228.345 958.209 212.408 955.893C158.871 948.096 113.256 962.25 108.07 948.062C104.5 938.278 124.268 925.95 121.296 921.445Z" fill="white"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_iif" x="961" y="67" width="602" height="608" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-70" dy="-70"/>
+<feGaussianBlur stdDeviation="50"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.172549 0 0 0 0 0.341176 0 0 0 0 0.384314 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="5" dy="5"/>
+<feGaussianBlur stdDeviation="50"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.670588 0 0 0 0 0.843137 0 0 0 0 0.882353 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="effect1_innerShadow" result="effect2_innerShadow"/>
+<feGaussianBlur stdDeviation="15" result="effect3_foregroundBlur"/>
+</filter>
+<filter id="filter1_iif" x="-170" y="850" width="602" height="608" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-70" dy="-70"/>
+<feGaussianBlur stdDeviation="50"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.172549 0 0 0 0 0.341176 0 0 0 0 0.384314 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="5" dy="5"/>
+<feGaussianBlur stdDeviation="50"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.670588 0 0 0 0 0.843137 0 0 0 0 0.882353 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="effect1_innerShadow" result="effect2_innerShadow"/>
+<feGaussianBlur stdDeviation="15" result="effect3_foregroundBlur"/>
+</filter>
+<clipPath id="clip0">
+<rect width="1440" height="783" fill="white"/>
+</clipPath>
+<clipPath id="clip1">
+<rect width="1440" height="783" fill="white" transform="translate(0 783)"/>
+</clipPath>
+</defs>
+</svg>

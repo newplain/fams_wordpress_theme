@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "GenjyuugothicMedium";
+    font-style: "Medium";
+    font-weight: 200;
+    src: url("/font/Genjyuugothic/Genjyuugothic-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "GenjyuugothicRegular";
+    font-style: "Regular";
+    font-weight: 100;
+    src: url("/font/Genjyuugothic/Genjyuugothic-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "GenjyuugothicBold";
+    font-style: "Bold";
+    font-weight: 500;
+    src: url("/font/Genjyuugothic/Genjyuugothic-Bold.woff") format("woff");
+}
